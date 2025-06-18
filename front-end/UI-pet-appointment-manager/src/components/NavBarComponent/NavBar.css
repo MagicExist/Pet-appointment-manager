@@ -1,0 +1,34 @@
+.btn-menu{
+    width: 3.5rem;
+}
+.btn-menu:hover img {
+  filter: brightness(1.2);
+  transform: scale(1.05);
+  transition: all 0.2s ease;
+}
+
+.my-offcanvas{
+    background-color: #0f0e17;
+}
+
+.my-offcanvas-title{
+    color: #fffffe;
+}
+
+.my-offcanvas-link{
+    color: #a7a9be;
+}
+
+.my-offcanvas-link:hover{
+    color: #f25f4c;
+}
+
+.my-btn-close{
+    width: 3.5rem;
+}
+
+.my-btn-close:hover{
+    filter: brightness(1.2);
+    transform: scale(1.05);
+    transition: all 0.2s ease;
+}

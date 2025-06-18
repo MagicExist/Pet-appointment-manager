@@ -1,3 +1,7 @@
+h1{
+    color: #fffffe;
+}
+
 .main-container{
     background-color: #1d1b2c;
 }
@@ -19,5 +23,7 @@
 }
 
 .option-btn:hover{
-    width: 3.1rem;
+    filter: brightness(1.2);
+    transform: scale(1.05);
+    transition: all 0.2s ease;
 }

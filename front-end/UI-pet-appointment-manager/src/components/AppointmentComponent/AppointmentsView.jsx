@@ -24,6 +24,7 @@ export default function AppointmentView(){
 
     return(
         <>
+            <h1 className="mb-3 fs-1">Appointments</h1>
             <div className="row flex-column p-2 main-container rounded-2">
                 <div className="col col-12 mt-2 mb-2">
                     <div className="row appointmentHeader">
