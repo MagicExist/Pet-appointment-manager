@@ -8,5 +8,7 @@ class Pet (models.Model):
 
 class Appointment (models.Model):
     procedure = models.CharField()
-    date = models.DateTimeField()
+    date = models.DateField()
+    time = models.TimeField(default='0:00')
+    priority = models.CharField(max_length=20, default='low')
     pet = models.ForeignKey(Pet, on_delete=models.CASCADE, related_name='appointments')
