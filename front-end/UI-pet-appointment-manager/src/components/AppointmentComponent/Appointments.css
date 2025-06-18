@@ -1,0 +1,23 @@
+.main-container{
+    background-color: #1d1b2c;
+}
+
+.appointmentHeader{
+    color: #fffffe;
+}
+
+.appointmentCard{
+    height: 3rem;
+}
+
+.priorityContainer{
+    width: 0.5rem;
+}
+
+.option-btn{
+    width: 3rem;
+}
+
+.option-btn:hover{
+    width: 3.1rem;
+}
