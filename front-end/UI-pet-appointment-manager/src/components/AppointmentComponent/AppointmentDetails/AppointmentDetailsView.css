@@ -1,0 +1,63 @@
+.mainContainer{
+    height: 100vh;
+}
+
+.infoContainer{
+    background-color: #1d1b2c;
+}
+
+.banner-img {
+  transform: translateY(-20rem);
+}
+
+.bannerContainer{
+    height: 40%;
+}
+
+.infoContainer{
+    height: 60%;
+}
+
+#Title{
+    color: #fffffe;
+}
+
+.textHiglight{
+    color: #fffffe;
+}
+
+.form-select{
+    background-color: #0f0e17 !important;
+    border: none;
+    color: #fffffe;
+}
+
+.form-select:focus-visible {
+  background-color: #0f0e17;
+  color: #fffffe;
+  transform: scale(1.05);
+  transition: all 0.2s ease;
+}
+
+.form-control{
+    background-color: #0f0e17 !important;
+    border: none;
+    color: #fffffe;
+}
+
+.form-control:focus-visible {
+  background-color: #0f0e17;
+  color: #fffffe;
+  transform: scale(1.05);
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+  transition: all 0.2s ease;
+}
+
+#moreInfoPet{
+    left: 80rem;
+    top: 36.5rem;
+}

@@ -1,6 +1,9 @@
 import './App.css'
-import AppointmentView from './components/AppointmentComponent/AppointmentsView'
+import AppointmentDetailsView from './components/AppointmentComponent/AppointmentDetails/AppointmentDetailsView';
+import HomeView from './components/Home/HomeView';
 import NavBarView from './components/NavBarComponent/NavBarView'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 
 function App() {
 
@@ -11,7 +14,12 @@ function App() {
           <NavBarView/>
         </div>
         <div className="col">
-          <AppointmentView/>
+          <BrowserRouter>
+            <Routes>
+              <Route path='/' element={<HomeView/>}/>
+              <Route path='/appointment/details/:id' element={<AppointmentDetailsView/>}/>
+            </Routes>
+          </BrowserRouter>
         </div>
       </div> 
     </div>
