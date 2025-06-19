@@ -1,6 +1,7 @@
 import { useEffect,useState } from "react";
 import axios from 'axios'
 import './Appointments.css'
+import AppointmentDropDownBtn from "../AppointmentDropDownBtnComponent/AppointmentDropDownBtn";
 
 export default function AppointmentView(){
 
@@ -59,9 +60,7 @@ export default function AppointmentView(){
                                 <p className="w-100">{appointment.time}</p>
                             </div>
                             <div className="col col-1 d-flex align-items-center">
-                                <button type="button" className="btn option-btn">
-                                    <img src="../../public/appointmentOptions.svg" alt="Botón" className="img-fluid"></img>
-                                </button>
+                                <AppointmentDropDownBtn/>
                             </div>
                         </div>
                     </div>

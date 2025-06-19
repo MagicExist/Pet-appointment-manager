@@ -19,7 +19,7 @@ export default function NavBarView(){
                 <Offcanvas.Header className='d-flex justify-content-between align-content-center'>
                     <Offcanvas.Title className='my-offcanvas-title'>Pet Appointment Manager</Offcanvas.Title>
                     <Button  variant='link' onClick={handleClose} className='my-btn-close border-0'>
-                        <img className='img-fluid' src="/public/canvasCloseBtn.svg" alt="Close"/>
+                        <img className='img-fluid' src="/canvasCloseBtn.svg" alt="Close"/>
                     </Button>
                 </Offcanvas.Header>
                 <Offcanvas.Body>

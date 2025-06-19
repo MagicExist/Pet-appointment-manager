@@ -18,12 +18,3 @@ h1{
     width: 0.5rem;
 }
 
-.option-btn{
-    width: 3rem;
-}
-
-.option-btn:hover{
-    filter: brightness(1.2);
-    transform: scale(1.05);
-    transition: all 0.2s ease;
-}

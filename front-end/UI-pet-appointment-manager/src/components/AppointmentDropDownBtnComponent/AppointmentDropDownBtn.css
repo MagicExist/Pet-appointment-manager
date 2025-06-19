@@ -1,0 +1,35 @@
+#dropdown-custom-toggle.dropdown-toggle::before {
+  display: none !important;
+}
+
+.dropdown-menu {
+  background-color: #0f0e17 !important; /* tu color personalizado */
+}
+
+.dropdown-menu a {
+    color: #fffffe;
+}
+
+.dropdown-menu a:hover{
+    background-color: #ff8906;
+    color: #fffffe;
+}
+
+.dropdown-menu #Delete:hover{
+    background-color: #e53170;
+    color: #fffffe;
+}
+
+.dropdown-menu hr {
+    background-color: #e53170;
+}
+
+.option-btn{
+    width: 3rem;
+}
+
+.option-btn:hover{
+    filter: brightness(1.2);
+    transform: scale(1.05);
+    transition: all 0.2s ease;
+}
