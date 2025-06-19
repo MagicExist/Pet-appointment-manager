@@ -1,6 +1,7 @@
 import './NavBar.css'
 import { Offcanvas, Button, Nav } from 'react-bootstrap';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function NavBarView(){
 
@@ -24,7 +25,7 @@ export default function NavBarView(){
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                     <Nav className="flex-column">
-                        <Nav.Link href="#" className='my-offcanvas-link fs-4'>Appointments</Nav.Link>
+                        <Nav.Link as={Link} to={"/"} className='my-offcanvas-link fs-4'>Appointments</Nav.Link>
                         <Nav.Link href="#" className='my-offcanvas-link fs-4'>Pets</Nav.Link>
                         <Nav.Link href="#" className='my-offcanvas-link fs-4'>Settings</Nav.Link>
                     </Nav>

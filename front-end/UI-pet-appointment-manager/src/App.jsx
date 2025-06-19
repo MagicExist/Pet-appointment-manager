@@ -8,21 +8,21 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App() {
 
   return (
-    <div className='container-fluid'>
-      <div className='row'>
-        <div className="navbar-container p-0">
-          <NavBarView/>
-        </div>
-        <div className="col">
-          <BrowserRouter>
+    <BrowserRouter>
+      <div className='container-fluid'>
+        <div className='row'>
+          <div className="navbar-container p-0">
+            <NavBarView/>
+          </div>
+          <div className="col">
             <Routes>
               <Route path='/' element={<HomeView/>}/>
               <Route path='/appointment/details/:id' element={<AppointmentDetailsView/>}/>
             </Routes>
-          </BrowserRouter>
-        </div>
-      </div> 
-    </div>
+          </div>
+        </div> 
+      </div>
+    </BrowserRouter>
   )
 }
 

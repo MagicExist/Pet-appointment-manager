@@ -110,7 +110,7 @@ export default function AppointmentDetailsView(){
                                 <FormLabel className="textHiglight fs-5">Pet</FormLabel>
                                 <FormControl
                                     type="text"
-                                    value={appointment.pet.name}
+                                    value={appointment.pet?.name}
                                     disabled="true"
                                     />
                             </div>
