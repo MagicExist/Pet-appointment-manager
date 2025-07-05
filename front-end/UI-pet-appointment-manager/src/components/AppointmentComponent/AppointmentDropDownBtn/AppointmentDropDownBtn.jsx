@@ -15,9 +15,8 @@ export default function AppointmentDropDownBtn({appointmentId}){
             
             <Dropdown.Menu>
                 <Dropdown.Item as={Link} to={`/appointment/details/${appointmentId}`} id='Details' eventKey="1">Details</Dropdown.Item>
-                <Dropdown.Item id='Edit' eventKey="2">Edit</Dropdown.Item>
                 <Dropdown.Divider />
-                <Dropdown.Item id='Delete' eventKey="4">Delete</Dropdown.Item>
+                <Dropdown.Item id='Delete' eventKey="2">Delete</Dropdown.Item>
             </Dropdown.Menu>
         </Dropdown>
     )
